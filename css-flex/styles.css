@@ -1,0 +1,34 @@
+
+
+
+ /* Cross axis -> vertial axis  -> justify-content
+ Main axis -> horizontal axis -> align-items
+ align content -> controls the entire flex-items where align-item control a single flex-item
+  */
+
+
+body{
+    display: flex;
+    min-height: 500px;
+    border: 1px solid black;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.box1{
+    align-self: flex-end;
+}
+
+
+div{
+    max-width: 100px;
+    min-width: 50px;
+    height: 100px;
+    background-color: rgb(11, 31, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-grow: 1;
+    /* max-width: 50px; */
+}
