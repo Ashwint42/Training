@@ -1,0 +1,27 @@
+.services{
+    height: 120px;
+    border: 2px solid black;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.service{
+    border: 1px solid red;
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    margin-right: 8.33%;
+}
+
+.service:nth-child(2){
+    position: relative;
+    top: 10px;
+}
+
+.service:nth-child(3){
+    position: relative;
+    top: 20px;
+}
