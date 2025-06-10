@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 700px;
+    margin: 100px auto;
+    color: white;
+    display: grid;
+    /* grid-template-columns: 30% 20% 50%; */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.wrapper div {
+    background-color: blue;
+    padding: 20px;
+}
+
+div :nth-child(even) {
+    background-color: brown;
+}
