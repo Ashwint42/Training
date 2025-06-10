@@ -12,17 +12,13 @@ body{
     min-height: 500px;
     border: 1px solid black;
     gap: 10px;
-    flex-wrap: wrap;
-}
-
-.box1{
-    align-self: flex-end;
+    flex-wrap: nowrap;
 }
 
 
 div{
-    max-width: 100px;
-    min-width: 50px;
+    /* flex basis adapts with the screen size rather than min-width that overflows and creates a scroll bar */
+    flex-basis: 150px;  
     height: 100px;
     background-color: rgb(11, 31, 44);
     display: flex;
