@@ -1,0 +1,92 @@
+:root {
+    --primary: #FFC636;
+    --secondary: #0A0B5B;
+}
+
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url(./assets/fonts/Rubik-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Rubik-Regular';
+}
+
+body {
+    background: var(--secondary);
+    overflow-x: hidden;
+}
+
+
+.button {
+    background: none;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    padding: 6px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    display: inline-block;
+}
+
+.button:hover {
+    color: #222;
+    background-color: var(--primary);
+}
+
+input,
+textarea {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: 2px solid #9893D8;
+    color: #f2f2f2
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #DDDBFF;
+    font-weight: normal;
+}
+
+p,
+li,
+a {
+    color: #9893D8;
+}
+
+h1,
+h3 {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+.leading {
+    font-size: 1.1em;
+}
+
+@media screen and (min-width: 620px) {}
+
+@media screen and (min-width: 960px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 20px
+    }
+}
