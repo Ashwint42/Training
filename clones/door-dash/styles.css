@@ -206,10 +206,10 @@ svg {
 
 
 .feature-text h2 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
     font-family: 'TTNorms-Bold';
-    line-height: 40px;
+    line-height: 35px;
 }
 
 .feature-text p {
@@ -418,4 +418,97 @@ svg {
 
 .services-wrapper::-webkit-scrollbar {
     background: transparent;
+}
+
+#opportunity {
+    padding: 20px 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#opportunity .heading {
+    margin: 30px 0;
+    font-family: 'TTNorms-Bold';
+    font-size: 25px;
+    text-align: center;
+}
+
+#opportunity .opportunity-image-wrapper {
+    margin-top: 10px;
+    width: 100%;
+    /* padding: 0 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#opportunity .opportunity-image-wrapper img {
+    width: 90%;
+}
+
+.opportunity-text {
+    background-color: var(--content-background);
+    padding: 20px;
+}
+
+.opportunity-text h2 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.opportunity-text button {
+    margin-top: 30px;
+    background-color: var(--primary-btn);
+    color: #ffffff;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.opportunity-text p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.business-signup {
+    background-color: var(--content-background);
+    padding: 20px;
+}
+
+.business-service {
+    /* text-align: center; */
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.business-service h2 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.business-service p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.business-service img {
+    width: 90%;
+}
+
+.business-service button {
+    margin-top: 30px;
+    background-color: var(--primary-btn);
+    color: #ffffff;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
 }
