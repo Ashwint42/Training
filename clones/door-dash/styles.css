@@ -565,3 +565,104 @@ svg {
     margin-top: 15px;
     font-weight: bold;
 }
+
+footer {
+    background-color: #191919ff;
+    color: var(--secondary-text-color);
+    padding: 20px;
+}
+
+.popular-categories .heading {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+footer .popular-categories ul {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    margin-top: 30px;
+    overflow-x: hidden;
+}
+
+footer li {
+    list-style: none;
+    font-size: 16px;
+    color: rgb(182, 182, 182);
+    font-weight: bolder;
+}
+
+footer li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.app-btns-container {
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-btns-container svg {
+    background-color: rgba(75, 75, 75, 0.5);
+    margin-top: 20px;
+    border-radius: 10px;
+    transform: scale(1.2);
+    fill: rgb(161, 161, 161);
+    padding: 5px;
+}
+
+.app-btns-container svg:hover {
+    background-color: rgba(255, 248, 248, 0.5);
+}
+
+#utils {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#utils div {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+#utils h3 {
+    margin-bottom: 20px;
+}
+
+#ul div ul {
+    margin-top: 20px;
+}
+
+#utils div ul li {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.social-links {
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links span {
+    font-size: 25px;
+    margin-left: 30px;
+    color: rgba(166, 166, 166, 0.5);
+    text-align: center;
+}
+
+.social-links span:hover {
+    color: white;
+    cursor: pointer;
+}
