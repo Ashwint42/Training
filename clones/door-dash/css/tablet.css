@@ -323,4 +323,101 @@
         font-size: 16px;
         font-weight: bold;
     }
+
+    #opportunity .heading-wrapper {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+
+    #opportunity .heading {
+        font-size: 34px;
+    }
+
+    .opportunity-image-mobile {
+        display: none;
+    }
+
+    .opportunity-image-desktop {
+        display: block;
+    }
+
+    .opportunity-child {
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: #ffffff;
+        justify-content: space-evenly;
+    }
+
+    .opportunity-child .opportunity-image-wrapper {
+        height: 500px;
+    }
+
+    .opportunity-image-desktop {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .opportunity-text {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .opportunity-text h2 {
+        width: 70%;
+        font-size: 45px;
+        font-weight: bolder;
+        font-family: 'TTNorms-Bold';
+    }
+
+    .opportunity-text p {
+        font-size: 17px;
+        width: 80%;
+    }
+
+    .opportunity-text button {
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .business-service-image-mobile {
+        display: none;
+    }
+
+    .business-service {
+        display: flex;
+    }
+
+    .business-sevice-image-wrapper {
+        height: 500px;
+    }
+
+    .business-sevice-image-wrapper img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .business-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 20px;
+    }
+
+    .business-text h2 {
+        font-size: 45px;
+        width: 70%;
+    }
+
+    .business-text button {
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+    }
 }

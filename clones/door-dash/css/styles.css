@@ -255,6 +255,7 @@ svg {
     width: 100%;
     min-width: 250px;
     height: 200px;
+    object-fit: cover;
 }
 
 .gallery-item-text * {
@@ -391,6 +392,7 @@ svg {
     overflow-x: scroll;
     justify-content: space-evenly;
     margin-top: 30px;
+    text-align: center;
 }
 
 .service-image-desktop {
@@ -448,6 +450,10 @@ svg {
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+
+.opportunity-image-desktop {
+    display: none;
 }
 
 #opportunity .heading {
