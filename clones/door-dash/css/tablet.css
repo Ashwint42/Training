@@ -266,10 +266,61 @@
     }
 
     .services-wrapper {
-        width: 100%;
+        max-width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
         margin-top: 30px;
+        overflow-x: hidden;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .service-image-mobile {
+        display: none;
+    }
+
+    .service-image-desktop {
+        display: block;
+    }
+
+    .services-wrapper * {
+        width: 100%;
+    }
+
+    #services {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #services h2 {
+        max-width: 40%;
+        font-size: 36px;
+        font-family: 'TTNorms-Bold';
+        text-align: center;
+    }
+
+    .services-wrapper .service-text {
+        padding: 20px;
+    }
+
+    .services-wrapper button {
+        width: 180px;
+        height: 40px;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .services-wrapper h4 {
+        font-size: 36px;
+        font-weight: bold;
+        font-family: 'TTNorms-Bold';
+    }
+
+    .service-text span {
+        font-size: 16px;
+        font-weight: bold;
     }
 }
