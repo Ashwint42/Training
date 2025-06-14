@@ -1,0 +1,275 @@
+@font-face {
+    font-family: 'TTNorms-Bold';
+    src: url(../assets/fonts/TTNorms-Bold.otf)
+}
+
+@media screen and (min-width : 765px) {
+    .hero {
+        height: 100vh;
+        background-position: bottom;
+    }
+
+
+    .hero input {
+        max-width: 350px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .hero .links {
+        display: none;
+    }
+
+    nav {
+        grid-column: 1/13;
+        height: 100px;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    nav svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    nav .nav-logo {
+        grid-column: 1/7;
+        justify-self: end;
+        align-self: start;
+        font-size: 24px;
+        font-family: 'TTNorms-Bold';
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 3px;
+        margin-right: -50px;
+    }
+
+    nav .nav-links {
+        grid-column: 8/13;
+        justify-self: end;
+        align-self: start;
+    }
+
+    nav .nav-links :nth-child(2) {
+        background-color: #ffffff;
+        color: rgb(93, 93, 93);
+    }
+
+    nav .nav-links button {
+        height: 40px;
+        width: 120px;
+        background-color: var(--primary-btn);
+        color: #ffffff;
+        outline: none;
+        border: none;
+        border-radius: 30px;
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: 'TTNorms-Bold';
+        margin-right: 10px;
+    }
+
+    .leading {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-bottom: -70px;
+        margin-left: 100px;
+        font-size: 40px;
+        font-family: 'TTNorms-Bold';
+        font-weight: bolder;
+    }
+
+    .delivery {
+        /* padding: 0; */
+        margin-bottom: 100px;
+    }
+
+    .login-btn {
+        padding: 0;
+        margin-top: -300px;
+        margin-left: -100px;
+    }
+
+    .login-btn .mobile-login {
+        display: none;
+    }
+
+    .login-btn .tablet-signin {
+        display: block;
+        width: 120px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'TTNorms-Bold';
+    }
+
+    .feature-image img {
+        width: 150px;
+        height: 150px;
+        margin-top: 10px;
+    }
+
+    .feature-text {
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    .feature-text h2 {
+        font-size: 34px;
+        line-height: 45px;
+    }
+
+    .gallery-item-1 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 30px;
+    }
+
+    .gallery-item .gallery-item-text {
+        width: 50%
+    }
+
+    .gallery-item-image {
+        height: 500px;
+        width: 50%;
+        margin-left: 50px;
+        overflow-y: visible;
+    }
+
+    .gallery-item-image :nth-child(2) {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .gallery-item-image :nth-child(1) {
+        display: none;
+    }
+
+    .gallery-item-image :nth-child(2) {
+        display: block;
+        min-width: 300px;
+    }
+
+    .gallery-item h2 {
+        font-size: 40px;
+    }
+
+    .gallery-item h4 {
+        font-size: 23px;
+    }
+
+    .gallery-item p {
+        font-size: 18px;
+        letter-spacing: 2px;
+        /* font-weight: bold; */
+    }
+
+    .gallery-item-2 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 100px;
+        padding: 30px;
+    }
+
+    .gallery-item-2 h4,
+    .gallery-item-2 h2,
+    .gallery-item-2 p,
+    .gallery-item-2 button {
+        margin-left: 30px;
+    }
+
+    #grocery-banner {
+        height: 100vh;
+        background-size: 100% 100vh;
+        text-align: center;
+    }
+
+    #grocery-banner h2 {
+        width: 50%;
+        font-size: 40px;
+        font-family: "TTNorms-Bold";
+        font-weight: bolder;
+    }
+
+    #grocery-banner h4 {
+        width: 70%;
+        font-size: 20px;
+    }
+
+    #grocery-banner button {
+        height: 50px;
+    }
+
+    #convenience {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 30px;
+    }
+
+    .convenience-desktop {
+        display: block;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .convenience-mobile {
+        display: none;
+    }
+
+    .convenience-text {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .convenience-text h2 {
+        font-size: 45px;
+        font-family: 'TTNorms-Bold';
+    }
+
+    .convenience-text h4 {
+        font-size: 23px;
+        margin-top: 30px;
+    }
+
+    .convenience-text p {
+        font-size: 18px;
+        letter-spacing: 2px;
+        margin-top: 30px;
+    }
+
+    .convenience-image {
+        height: 500px;
+        width: 50%;
+        margin-left: 50px;
+        overflow-y: visible;
+    }
+
+    .convenience-text button {
+        width: 150px;
+        height: 50px;
+    }
+
+    .services-wrapper {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        margin-top: 30px;
+    }
+}

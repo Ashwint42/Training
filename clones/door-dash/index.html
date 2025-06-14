@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DoorDash: Food, Grocery and Retail</title>
     <link rel="icon" href="./assets/favicon.png">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,6 +15,21 @@
 
 <body>
     <section class="hero grid">
+
+        <nav>
+            <div class="nav-logo">
+                <svg aria-hidden="true" width="42" height="28" viewBox="0 0 99.5 56.5" fill="white">
+                    <path
+                        d="M95.64,13.38A25.24,25.24,0,0,0,73.27,0H2.43A2.44,2.44,0,0,0,.72,4.16L16.15,19.68a7.26,7.26,0,0,0,5.15,2.14H71.24a6.44,6.44,0,1,1,.13,12.88H36.94a2.44,2.44,0,0,0-1.72,4.16L50.66,54.39a7.25,7.25,0,0,0,5.15,2.14H71.38c20.26,0,35.58-21.66,24.26-43.16">
+                    </path>
+                </svg> DOORDASH
+            </div>
+
+            <div class="nav-links">
+                <button>Sign In</button>
+                <button>Sign Up</button>
+            </div>
+        </nav>
 
         <div class="links">
             <button>Login</button>
@@ -36,7 +52,8 @@
 
         </div>
         <div class="login-btn">
-            <button><i class="fa-regular fa-user"></i> Login</button>
+            <button class="mobile-login"><i class="fa-regular fa-user"></i> Login</button>
+            <button class="tablet-signin"><i class="fa-regular fa-user"></i> Sign In</button>
         </div>
     </section>
 
@@ -76,9 +93,10 @@
     </section>
 
     <section class="gallery">
-        <div class="gallery-item">
+        <div class="gallery-item gallery-item-1">
             <div class="gallery-item-image">
                 <img src="./assets/images/gallery-images/gallery-image-1.avif" alt="Gallery Image">
+                <img src="./assets/images/gallery-images/gallery-image-1-desktop.avif" alt="Gallery Image">
             </div>
             <div class="gallery-item-text">
                 <h2>Everything you crave, delivered.</h2>
@@ -90,9 +108,10 @@
             </div>
         </div>
 
-        <div class="gallery-item">
-            <div class="gallery-item-image">
+        <div class="gallery-item gallery-item-2">
+            <div class="gallery-item-image ">
                 <img src="./assets/images/gallery-images/gallery-image-2.avif" alt="Gallery Image">
+                <img src="./assets/images/gallery-images/gallery-image-2-desktop.avif" alt="Gallery Image">
             </div>
             <div class="gallery-item-text">
                 <h2>DashPass is delivery for less</h2>
@@ -114,7 +133,9 @@
 
     <section id="convenience">
         <div class="convenience-image">
-            <img src="./assets/images/convenience_mobile.avif" alt="convenience_image">
+            <img class="convenience-mobile" src="./assets/images/convenience_mobile.avif" alt="convenience_image">
+            <img class="convenience-desktop" src="./assets/images/convenience-desktop.avif" alt="convenience_image">
+
         </div>
 
         <div class="convenience-text">
