@@ -3,6 +3,14 @@
     src: url(../assets/fonts/TTNorms-Bold.otf)
 }
 
+:root {
+    --primary-btn: #eb1700;
+    --secondary-btn: #ffffff;
+    --primary-text-color: rgb(36, 34, 34);
+    --secondary-text-color: #ffffff;
+    --content-background: rgb(254, 241, 238);
+}
+
 @media screen and (min-width : 765px) {
     .hero {
         height: 100vh;
@@ -419,5 +427,50 @@
         width: 200px;
         height: 50px;
         font-size: 18px;
+    }
+
+    #utils {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        align-items: start;
+        justify-items: center;
+    }
+
+    .help,
+    .partnership,
+    .about {
+        grid-column: span 2;
+    }
+
+    .terms {
+        grid-column: 1/4;
+    }
+
+    .languages {
+        grid-column: 4/5;
+        justify-items: end;
+    }
+
+    .social-links {
+        grid-column: 5/7;
+        grid-row: 2;
+        justify-items: end;
+    }
+
+    .terms {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 13px;
+        flex-wrap: wrap;
+    }
+
+    .terms a,
+    .terms p {
+        color: rgb(182, 182, 182);
+        text-decoration: none;
+    }
+
+    .terms a:hover {
+        text-decoration: underline;
     }
 }

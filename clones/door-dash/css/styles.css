@@ -695,3 +695,26 @@ footer li:hover {
     color: white;
     cursor: pointer;
 }
+
+.terms {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 13px;
+    flex-wrap: wrap;
+}
+
+.terms a,
+.terms p {
+    color: rgb(182, 182, 182);
+    text-decoration: none;
+}
+
+select {
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
