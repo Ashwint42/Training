@@ -68,4 +68,42 @@
 
     }
 
+    .convenience-text {
+        width: 40%;
+        padding-right: 50px;
+    }
+
+    .convenience-image {
+        width: 60%;
+
+    }
+
+    .convenience-text p {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .convenience-text button {
+        width: 120px;
+        height: 45px;
+    }
+
+    #services h2 {
+        max-width: 40%;
+    }
+
+    .services-wrapper h4 {
+        font-size: 40px;
+        width: 80%;
+    }
+
+    .services-wrapper button {
+        width: 180px;
+        height: 50px;
+    }
+
+    .services-wrapper p {
+        font-size: 18px;
+        font-weight: 500;
+    }
 }
