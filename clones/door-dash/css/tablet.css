@@ -3,6 +3,10 @@
     src: url(../assets/fonts/TTNorms-Bold.otf)
 }
 
+body {
+    position: relative;
+}
+
 :root {
     --primary-btn: #eb1700;
     --secondary-btn: #ffffff;
@@ -99,10 +103,24 @@
         margin-bottom: 100px;
     }
 
+    .arrow-container button {
+        background-color: var(--primary-btn);
+        color: white;
+    }
+
+    #delivery-search-icon {
+        display: none;
+    }
+
+    #delivery-location-icon {
+        display: block;
+        font-size: 25px;
+    }
+
     .login-btn {
         padding: 0;
         margin-top: -300px;
-        margin-left: -100px;
+        margin-left: -50px;
     }
 
     .login-btn .mobile-login {
@@ -451,6 +469,10 @@
 
     .franchise-content .links a {
         font-size: 18px;
+    }
+
+    .popular-categories {
+        padding: 20px;
     }
 
     #utils {
