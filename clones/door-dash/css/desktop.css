@@ -1,0 +1,71 @@
+@media screen and (min-width: 1140px) {
+
+    .login-btn .tablet-signin {
+        display: none;
+    }
+
+
+    .login-btn .desktop-signin {
+        display: flex;
+        width: 250px;
+        font-weight: bolder;
+        font-family: 'TTNorms-Bold';
+    }
+
+    #features {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        padding: 100px;
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        text-align: center;
+    }
+
+    .feature-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .feature-text a {
+        font-size: 18px;
+        font-weight: bolder;
+        font-family: 'TTNorms-Bold';
+    }
+
+    .gallery-item .gallery-item-text {
+        width: 40%;
+        padding: 50px;
+    }
+
+    .gallery-item {
+        padding-right: 50px;
+    }
+
+    .gallery-item .gallery-item-text h2 {
+        font-size: 45px;
+    }
+
+    .gallery-item .gallery-item-text button {
+        width: 170px;
+        height: 50px;
+        margin-top: 50px;
+    }
+
+    .gallery-item-image {
+
+        width: 60%;
+
+    }
+
+}
