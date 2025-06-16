@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'TTNorms-Bold';
-    src: url(../assets/fonts/TTNorms-Bold.otf)
+    src: url(../assets/fonts/TTNorms-Bold.otf);
 }
 
 :root {
@@ -547,26 +547,33 @@ svg {
 }
 
 #franchise {
-    padding: 20px;
+    padding: 40px;
 }
 
 #franchise .heading {
     font-family: 'TTNorms-Bold';
     font-size: 22px;
     font-weight: bolder;
+    text-align: center;
 }
 
 .franchise-content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
 }
 
 .franchise-content .links {
     border-bottom: 3px rgb(227, 227, 227) solid;
     display: flex;
+    gap: 10px;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 30px;
+    padding-left: 30px;
+    width: 90%;
 }
 
 .franchise-content .links a {
@@ -574,7 +581,9 @@ svg {
     text-decoration: none;
     color: grey;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
 }
 
 .franchise-content .links .default {
@@ -583,20 +592,30 @@ svg {
 
 .franchise-content .links a:hover {
     opacity: 0.7;
-    background-color: aliceblue;
+    background-color: rgb(241, 241, 241);
+    transition: 0.3s;
+}
+
+.link-description {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
 }
 
 .link-description ul {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     padding: 10px;
 }
 
 .link-description ul li {
     list-style: none;
     font-size: 18px;
-    margin-top: 15px;
-    font-weight: bold;
+    margin-top: 20px;
+    font-weight: 500;
 }
 
 footer {
