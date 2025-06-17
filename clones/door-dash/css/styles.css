@@ -565,10 +565,13 @@ svg {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* height: 250px; */
 }
 
 #opportunity .opportunity-image-wrapper img {
     width: 90%;
+    object-fit: cover;
+    /* height: 300px; */
 }
 
 .opportunity-text {
@@ -622,7 +625,9 @@ svg {
 }
 
 .business-service img {
-    width: 90%;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
 }
 
 .business-service button {
