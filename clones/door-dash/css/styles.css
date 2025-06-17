@@ -50,7 +50,7 @@ nav {
     z-index: 3;
     width: 100%;
     top: 100px;
-    display: none;
+    /* display: none; */
 }
 
 .visible {
@@ -888,4 +888,34 @@ select {
     font-size: 16px;
     padding-left: 25px;
     padding-right: 25px;
+}
+
+.top-cities-list-toggle-container {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.top-cities-list-toggle-container span {
+    text-align: center;
+    font-size: 23px;
+    font-family: 'TTNorms-Bold';
+}
+
+.top-cities-list-toggle-container button {
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.top-cities-list-toggle-container button:hover {
+    background-color: rgb(196, 196, 196);
 }
