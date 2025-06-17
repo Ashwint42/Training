@@ -16,6 +16,30 @@ body {
 }
 
 @media screen and (min-width : 765px) {
+
+    .sticky-nav {
+        height: 60px;
+    }
+
+    .sticky-nav-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sticky-nav-logo-name {
+        display: block;
+        font-weight: bold;
+    }
+
+    .mobile-sticky-nav {
+        display: none;
+    }
+
+    .tablet-nav-signup {
+        display: block;
+    }
+
     .hero {
         height: 100vh;
         background-position: bottom;
@@ -520,3 +544,10 @@ body {
         text-decoration: underline;
     }
 }
+
+/* @media screen and (min-width: 850px) {
+    .sticky-nav .nav-logo {
+        color: #ffffff;
+    }
+
+} */

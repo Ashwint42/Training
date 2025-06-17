@@ -113,7 +113,7 @@ window.addEventListener('load', () => {
 const stickyNav = document.querySelector('.sticky-nav');
 window.addEventListener('scroll', () => {
 
-    if (window.scrollY >= 300) {
+    if (window.scrollY >= 200) {
         stickyNav.style.display = 'flex'
         stickyNav.style.position = 'sticky'
         stickyNav.style.top = '0'

@@ -1,5 +1,9 @@
 @media screen and (min-width: 1140px) {
 
+    .sticky-nav .nav-logo {
+        color: var(--primary-btn);
+    }
+
     .login-btn .tablet-signin {
         display: none;
     }
