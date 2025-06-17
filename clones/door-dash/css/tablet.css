@@ -127,6 +127,15 @@ body {
         margin-bottom: 100px;
     }
 
+    .delivery-input input {
+        min-width: 350px;
+        width: 350px;
+        resize: both;
+        border: none;
+        outline: none;
+        padding-left: 30px
+    }
+
     .arrow-container button {
         background-color: var(--primary-btn);
         color: white;
@@ -310,6 +319,10 @@ body {
         margin-left: 50px;
         margin-top: 50px;
         overflow-y: visible;
+    }
+
+    .convenience-image img {
+        object-fit: cover;
     }
 
     .convenience-desktop {
