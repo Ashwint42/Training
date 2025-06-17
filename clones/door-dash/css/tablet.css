@@ -17,7 +17,8 @@ body {
 
 @media screen and (min-width : 765px) {
 
-    #ad {
+    #ad,
+    #second-ad {
         display: none;
     }
 
@@ -33,7 +34,8 @@ body {
 
     .sticky-nav-logo-name {
         display: block;
-        font-weight: bold;
+        font-weight: bolder;
+        font-family: 'TTNorms-Bold';
     }
 
     .mobile-sticky-nav {
