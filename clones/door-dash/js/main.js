@@ -23,6 +23,7 @@ const topCuisines = [
 ];
 
 
+// franchise button toggle
 
 const franchiseLinks = document.querySelectorAll('#franchise-links');
 const franchiseData = document.querySelector('.franchise-data');
@@ -80,7 +81,6 @@ franchiseLinks.forEach(link => {
 
 
 seeMoreButton.addEventListener('click', () => {
-    console.log('cl')
     renderedList = '';
     topCitiesRemaining.forEach(data => {
         renderedList += `<li>${data}</li>`
@@ -105,4 +105,22 @@ seeLessButton.addEventListener('click', () => {
 
 window.addEventListener('load', () => {
     defaultLink.click();
+})
+
+
+// sticky navbar
+
+const stickyNav = document.querySelector('.sticky-nav');
+window.addEventListener('scroll', () => {
+
+    if (window.scrollY >= 300) {
+        stickyNav.style.display = 'flex'
+        stickyNav.style.position = 'sticky'
+        stickyNav.style.top = '0'
+    }
+    else {
+        stickyNav.style.position = 'absolute'
+        stickyNav.style.top = '100px'
+        stickyNav.style.display = 'none'
+    }
 })
