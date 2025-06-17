@@ -27,6 +27,69 @@ body {
     --content-background: rgb(254, 241, 238);
 }
 
+#ad {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.ad-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.ad-info .ad-heading {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ad-info .fee-text {
+    font-size: 16px;
+    color: rgb(70, 70, 70);
+}
+
+.ratings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-info * {
+    margin-top: 2px;
+}
+
+.ratings svg {
+    margin-left: -5px;
+}
+
+.ratings span {
+    font-size: 16px;
+    color: rgb(70, 70, 70);
+    font-weight: bold;
+}
+
+#ad button {
+    background-color: var(--primary-btn);
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+
 .hero {
     max-width: 100%;
     background: #ff4723 url(../assets/images/banner.png);

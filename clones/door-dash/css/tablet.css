@@ -17,6 +17,10 @@ body {
 
 @media screen and (min-width : 765px) {
 
+    #ad {
+        display: none;
+    }
+
     .sticky-nav {
         height: 60px;
     }
