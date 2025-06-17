@@ -1,0 +1,23 @@
+:root {
+    --primary-button-color: #eb1700ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    border: none;
+    background-color: var(--primary-button-color);
+    color: white;
+    outline: none;
+}
