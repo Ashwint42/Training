@@ -1,0 +1,26 @@
+@media screen and (min-width: 960px) {
+    .main-logo-svg-container svg {
+        width: 42px;
+        height: 24px;
+        margin-left: 1px;
+    }
+
+    .logo-text-container svg {
+        width: 155px;
+        height: 18px;
+        margin-left: 4px;
+        margin-top: 1px;
+    }
+
+    #delivery-signin-text {
+        display: none;
+    }
+
+    #delivery-signin-long-text {
+        display: flex;
+    }
+
+    .delivery-buttons-container .delivery-login {
+        width: 203.5px;
+    }
+}

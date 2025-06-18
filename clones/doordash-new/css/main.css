@@ -24,6 +24,11 @@
     src: url(/assets/fonts/TTNorms-Medium.otf);
 }
 
+@font-face {
+    font-family: 'TTNorms-Condensed';
+    src: url(/assets/fonts/Fontspring-DEMO-tt_norms_pro_condensed_extrabold.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -147,6 +152,10 @@ nav {
     padding: 1px;
 }
 
+.tablet-buttons {
+    display: none;
+}
+
 .nav-buttons-container {
     margin-top: 15px;
     display: flex;
@@ -264,6 +273,10 @@ nav {
     height: 22px;
 }
 
+.input-location-icon {
+    display: none;
+}
+
 .delivery-inputs-wrapper .input-wrapper input {
     width: 100%;
     border: none;
@@ -290,6 +303,9 @@ nav {
     border-radius: 50%;
     min-height: 40px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .delivery-buttons-container {
@@ -320,7 +336,9 @@ nav {
     align-items: center;
 }
 
-.delivery-login .delivery-login-text {
+
+
+.delivery-login .delivery-btn-styles {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -329,6 +347,14 @@ nav {
     line-height: 14px;
     font-family: 'TTNorms-Bold';
     margin-left: 5px;
+}
+
+#delivery-signin-text {
+    display: none;
+}
+
+#delivery-signin-long-text {
+    display: none;
 }
 
 .delivery-buttons-container .current-location {

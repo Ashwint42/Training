@@ -1,0 +1,120 @@
+@media screen and (min-width: 768px) {
+    #ad {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+        height: 650px;
+    }
+
+    .delivery-main-logo-container {
+        transform: translateY(-153px);
+    }
+
+    .mobile-buttons {
+        display: none;
+    }
+
+    .tablet-buttons {
+        display: block;
+    }
+
+    .tablet-nav-sign-in {
+        width: 82px;
+        height: 40px;
+        font-family: 'TTNorms-Bold';
+        font-size: 18px;
+        margin-right: 8px;
+    }
+
+    .tablet-nav-sign-up {
+        width: 90px;
+        height: 40px;
+        font-family: 'TTNorms-Bold';
+        font-size: 18px;
+        background-color: white;
+        color: var(--secondary-text-color);
+        margin-right: -2px;
+    }
+
+    .delivery-main-text-container h1 {
+        font-size: 22px
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    .delivery-main-text-container {
+        max-width: 750px;
+        margin-top: 85px;
+    }
+
+    .delivery-main-text-container h1 {
+        font-size: 38px;
+        max-width: 750px;
+        line-height: 40px;
+        font-weight: bolder;
+        letter-spacing: -0.5px;
+    }
+
+    .delivery-inputs-wrapper {
+        width: 408px;
+        padding-top: 28px;
+        padding-right: 8px;
+        padding-bottom: 28px;
+        margin-top: 18px;
+    }
+
+
+    .search-icon-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -3px;
+        margin-left: 4px;
+    }
+
+    .input-location-icon {
+        display: block;
+        margin-top: 3px;
+    }
+
+    .input-search-icon {
+        display: none;
+    }
+
+    .delivery-inputs-wrapper .arrow-icon-wrapper button {
+        background-color: var(--primary-button-color);
+    }
+
+    .delivery-inputs-wrapper .arrow-icon-wrapper button svg path {
+        fill: white;
+    }
+
+    .delivery-inputs-wrapper .input-wrapper input::placeholder {
+        font-size: 15.2px;
+        color: #606060;
+    }
+
+    #delivery-signin-text {
+        display: flex;
+    }
+
+    #delivery-login-text {
+        display: none;
+    }
+
+    .delivery-buttons-container .current-location {
+        display: none;
+    }
+
+    .delivery-buttons-container .delivery-login {
+        width: 88.9px;
+        margin-left: 19px;
+    }
+
+    .delivery-buttons-container .delivery-login .delivery-login-svg-wrapper {
+        margin-left: 2px;
+    }
+}
