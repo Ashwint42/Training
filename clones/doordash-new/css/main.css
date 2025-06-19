@@ -535,11 +535,12 @@ nav {
 }
 
 .role-text-container h2 {
-    font-family: 'TTNorms-Medium';
+    font-family: 'TTNorms-Bold';
     font-size: 32px;
     line-height: 40px;
     text-align: left;
-    letter-spacing: -0.01px;
+    letter-spacing: 0.01px;
+    font-weight: 700;
 }
 
 .role-text-container h3 {
@@ -547,7 +548,8 @@ nav {
     font-size: 18px;
     text-align: left;
     line-height: 24px;
-    min-width: 208px
+    min-width: 208px;
+    font-weight: 500;
 }
 
 .role-text-container button {

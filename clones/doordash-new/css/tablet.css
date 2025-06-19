@@ -122,4 +122,24 @@
     .delivery-buttons-container .delivery-login .delivery-login-svg-wrapper {
         margin-left: 2px;
     }
+
+    #organization {
+        background-color: blue;
+        width: 486px;
+        height: 768px;
+    }
+
+    .organization-container {
+        background-color: yellow;
+        margin: 32px 0;
+    }
+
+    .role-image-container img {
+        width: 124px;
+        height: 124px;
+    }
+
+    .role-text-container {
+        margin-left: 32px;
+    }
 }
