@@ -124,13 +124,11 @@
     }
 
     #organization {
-        background-color: blue;
         width: 486px;
         height: 768px;
     }
 
     .organization-container {
-        background-color: yellow;
         margin: 32px 0;
     }
 

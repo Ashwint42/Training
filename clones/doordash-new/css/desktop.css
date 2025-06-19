@@ -25,3 +25,69 @@
     }
 }
 
+@media screen and (min-width: 1200px) {
+    #organization {
+        max-width: 1184px;
+        height: 636px;
+        width: 1104px;
+        background-color: blue;
+    }
+
+    .organization-container {
+        width: 1104px;
+        margin: 96px 0;
+        background-color: yellow;
+        padding: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .roles-container {
+        /* background-color: green; */
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        width: 360px;
+        text-align: center;
+    }
+
+    .role-image-container {
+        display: flex;
+        justify-content: center;
+        margin-right: 64px;
+    }
+
+    .role-image-container img {
+        width: 154px;
+        height: 154px;
+    }
+
+    .role-text-container h3 {
+        text-align: center;
+        margin-top: 6px;
+    }
+
+    .role-text-container h2 {
+        text-align: center;
+    }
+
+    .role-text-container {
+        width: 250px;
+        max-width: 250px;
+        min-height: 160px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: green;
+        align-self: flex-start;
+        align-items: center;
+        margin-left: -0.5px;
+    }
+
+    .role-text-container button span {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
