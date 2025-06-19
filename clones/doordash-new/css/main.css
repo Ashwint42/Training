@@ -440,9 +440,10 @@ nav {
 }
 
 .app-ad-content h2 {
-    width: 200.646px;
+    width: 205.646px;
     font-family: 'TTNorms-Regular';
     font-size: 18px;
+
 }
 
 .app-ad-text {
@@ -488,6 +489,85 @@ nav {
     max-width: 100%;
     width: 318.667px;
     height: 40px;
-    margin-top: 3px;
+    margin-top: 0px;
     font-size: 16px
+}
+
+#organization {
+    padding-top: 0.1px;
+    display: block;
+    max-width: 768px;
+    width: 418px;
+    margin: 0 auto;
+    height: 784px;
+}
+
+.organization-container {
+    max-width: 100%;
+    margin: 40px 0;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.organization-container .roles-container {
+    max-width: 100%;
+    min-width: 360px;
+    display: flex;
+    padding: 16px;
+}
+
+.role-image-container {
+    margin-right: 32px;
+}
+
+.role-image-container img {
+    width: 88px;
+    height: 88px;
+}
+
+.role-text-container {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: no-wrap; */
+}
+
+.role-text-container h2 {
+    font-family: 'TTNorms-Medium';
+    font-size: 32px;
+    line-height: 40px;
+    text-align: left;
+    letter-spacing: -0.01px;
+}
+
+.role-text-container h3 {
+    font-family: 'TTNorms-Regular';
+    font-size: 18px;
+    text-align: left;
+    line-height: 24px;
+    min-width: 208px
+}
+
+.role-text-container button {
+    background-color: transparent;
+    font-size: 14px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.role-text-container button span {
+    font-family: 'TTNorms-Bold';
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--primary-button-color);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.role-text-container button svg {
+    margin-left: 2px;
 }
