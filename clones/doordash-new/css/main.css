@@ -2,6 +2,7 @@
     --primary-button-color: #eb1700ff;
     --secondary-text-color: #606060;
     --primary-text-color: #242424;
+    --overlay-color: rgb(254, 241, 238);
 }
 
 @font-face {
@@ -418,7 +419,6 @@ nav {
     display: flex;
 }
 
-
 .logo-wrapper {
     width: 60px;
     height: 60px;
@@ -531,7 +531,6 @@ nav {
     max-width: 250px;
     display: flex;
     flex-direction: column;
-    /* flex-wrap: no-wrap; */
 }
 
 .role-text-container h2 {
@@ -572,4 +571,117 @@ nav {
 
 .role-text-container button svg {
     margin-left: 4px;
+}
+
+#overlay-section {
+    width: 100%;
+}
+
+.primary-overlay-container {
+    min-width: 90%;
+    max-height: 200px;
+    padding: 20px;
+    align-items: center;
+}
+
+.primary-overlay-image {
+    width: 100%;
+}
+
+.primary-overlay-image img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.primary-overlay-text h2 {
+    font-family: "TTNorms-bold";
+    max-width: 90%;
+    text-align: left;
+    font-size: 24px;
+    margin-top: 19.9px;
+    line-height: 28px;
+}
+
+.primary-overlay-text h4 {
+    font-family: 'TTNorms-Medium';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 10px;
+    letter-spacing: -0.01px;
+    max-width: 100%;
+}
+
+.primary-overlay-text p {
+    font-family: 'TTNorms-Medium';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+    letter-spacing: -0.3px;
+    text-align: left;
+    max-width: 95%;
+}
+
+.primary-overlay-text button {
+    max-width: 100%;
+    width: 130.5px;
+    min-height: 32px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.secondary-overlay-container {
+    background-color: var(--overlay-color);
+    height: 678px;
+    margin-top: -96px;
+    width: 100%;
+    padding-top: 300px;
+}
+
+.secondary-overylay-item {
+    margin-top: 25px;
+    padding: 0 20px;
+}
+
+.secondary-overlay-image {
+    width: 100%;
+    background-color: #242424;
+    height: 180px;
+}
+
+.secondary-overlay-image img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.secondary-overlay-item-text h2 {
+    font-family: "TTNorms-bold";
+    max-width: 90%;
+    text-align: left;
+    font-size: 24px;
+    margin-top: 23.5px;
+    line-height: 28px;
+}
+
+.secondary-overlay-item-text p {
+    font-family: 'TTNorms-Medium';
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+    max-width: 95%;
+    letter-spacing: -0.3px;
+    font-weight: 500;
+}
+
+.secondary-overlay-item-text button {
+    max-width: 100%;
+    width: 114px;
+    min-height: 32px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
 }
